@@ -1,0 +1,3 @@
+# PRACTICA DE POLIGONO.
+* Antes de dibujar, Blender necesita un contenedor. Crearemos un espacio vacío en la memoria
+* Para que un polígono sea "regular" (que todos sus lados midan lo mismo), todos sus puntos deben tocar los bordes de un círculo imaginario.El Ángulo: El código divide un círculo completo ($360^{\circ}$) entre el número de lados que tú elijas. Si quieres un cuadrado, hace marcas cada $90^{\circ}$.Las Coordenadas ($X, Y$): Para saber exactamente dónde poner cada punto en el plano, usa Seno y Coseno.El Coseno le dice qué tan a la izquierda o derecha va el punto ($X$).El Seno le dice qué tan arriba o abajo va ($Y$).Z=0: Como es 2D, le ordena a Blender que no use la profundidad. Todos los puntos quedan "aplastados" en el suelo.
